@@ -10,7 +10,7 @@ public class VectorConcept {
 		//Create a vector  
         Vector<String> vec = new Vector<String>();  
         
-        //Adding elements using add() method of List  
+        //Adding elements using add() method of List  .
         vec.add("Tiger");  
         vec.add("Lion");  
         vec.add("Dog");  
@@ -32,7 +32,7 @@ public class VectorConcept {
         vec.setSize(10);  
         System.out.println("Elements are: "+vec); 
 
-        //Checking if Tiger is present or not in this vector         
+        //Checking if Tiger is present or not in this vector    .     
         if(vec.contains("Tiger"))  
         {  
            System.out.println("Tiger is present at the index " +vec.indexOf("Tiger"));  
@@ -55,7 +55,7 @@ public class VectorConcept {
         //Sorting the vector  
        // Collections.sort(vec);  integer value
         
-        //Display the vector elements afre remove() method  
+        //Display the vector elements afre remove() method  .
         System.out.println("Values in vector: " +vec);  
         
         //Remove the element at index 4  
