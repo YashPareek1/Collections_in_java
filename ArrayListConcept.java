@@ -75,7 +75,7 @@ public class ArrayListConcept
 	        int size = list2.size();
 	        System.out.println("Size of list = " + size);
 	        
-	        // clear function used
+	        // clear function used clear data
 	        list2.clear();
 	        System.out.println("Updated ArrayList " + list2);
 	}
